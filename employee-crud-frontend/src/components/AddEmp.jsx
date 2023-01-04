@@ -36,12 +36,6 @@ export default function AddEmp() {
             });
         }).catch((error) => {
             console.log("loi roi");
-            console.log(emp.firstName);
-            console.log(emp.lastName);
-            console.log(emp.email);
-            console.log(emp.address);
-            console.log(emp.salary);
-            
             console.log(error);
         })
     }
