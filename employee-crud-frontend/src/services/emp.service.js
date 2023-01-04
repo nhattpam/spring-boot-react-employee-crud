@@ -20,8 +20,8 @@ class EmpService{
         return axios.get(BASE_API_URL + "/delete/" + id);
     }
 
-    updateEmp(id){
-        return axios.post(BASE_API_URL + "/update/" + id);
+    updateEmp(id, emp){
+        return axios.post(BASE_API_URL + "/update/" + id, emp);
     }
 }
 

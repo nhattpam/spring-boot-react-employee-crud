@@ -41,7 +41,7 @@ export default function Home() {
               <td>{e.address}</td>
               <td>{e.salary}</td>
               <td>
-                <Link className="btn btn-sm btn-primary">Edit</Link>
+                <Link className="btn btn-sm btn-primary" to={"editEmployee/" + e.id}>Edit</Link>
                 <Link className="btn btn-sm btn-danger ms-2">Delete</Link>
               </td>
             </tr>
